@@ -1,0 +1,8 @@
+#! /bin/sh
+#
+# Created by configure
+
+"./configure" \
+"--prefix=/home/cs408_team3/apache" \
+"--with-apr=/home/cs408_team3/apache" \
+"$@"

@@ -1,0 +1,11 @@
+#! /bin/sh
+#
+# Created by configure
+
+"./configure" \
+"--prefix=/home/cs408_team3/apache" \
+"--with-mpm=worker" \
+"--with-apr=/home/cs408_team3/apache" \
+"--with-apr-util=/home/cs408_team3/apache" \
+"--with-pcre=/home/cs408_team3/pcre" \
+"$@"

@@ -1,0 +1,14 @@
+HomingPigeon
+.ssh
+.mysql_history
+gcc*
+gmp*
+libelf*
+pcre*
+.Xauthority
+.bash_history
+.bash_logout
+.bash_profile
+.emacs
+.gconfd/
+.mozilla
