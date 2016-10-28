@@ -1,5 +1,5 @@
 <?php
-if ('/home/cs408_team3/php-7.0.12/php7/lib/php' == '@'.'php_dir'.'@') {
+if ('/home/cs408_team3/php7/lib/php' == '@'.'php_dir'.'@') {
     // This package hasn't been installed.
     // Adjust path to ensure includes find files in working directory.
     set_include_path(dirname(dirname(__FILE__))

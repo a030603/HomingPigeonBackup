@@ -2672,3 +2672,68 @@ AH00112: Warning: DocumentRoot [/home/cs408_team3/apache/docs/dummy-host2.exampl
 [Wed Oct 26 01:20:47.104692 2016] [core:warn] [pid 8319:tid 47107333631936] AH00098: pid file /home/cs408_team3/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
 [Wed Oct 26 01:20:47.155821 2016] [mpm_worker:notice] [pid 8319:tid 47107333631936] AH00292: Apache/2.4.23 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
 [Wed Oct 26 01:20:47.155840 2016] [core:notice] [pid 8319:tid 47107333631936] AH00094: Command line: '/home/cs408_team3/apache/bin/httpd'
+[Fri Oct 28 17:08:58.804065 2016] [mpm_worker:notice] [pid 8319:tid 47107333631936] AH00298: SIGHUP received.  Attempting to restart
+[Fri Oct 28 17:08:58.910352 2016] [mpm_worker:notice] [pid 8319:tid 47107333631936] AH00292: Apache/2.4.23 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 28 17:08:58.910368 2016] [core:notice] [pid 8319:tid 47107333631936] AH00094: Command line: '/home/cs408_team3/apache/bin/httpd'
+[Fri Oct 28 17:21:01.643750 2016] [mpm_worker:notice] [pid 8319:tid 47107333631936] AH00298: SIGHUP received.  Attempting to restart
+[Fri Oct 28 17:21:01.720273 2016] [mpm_worker:notice] [pid 8319:tid 47107333631936] AH00292: Apache/2.4.23 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 28 17:21:01.720288 2016] [core:notice] [pid 8319:tid 47107333631936] AH00094: Command line: '/home/cs408_team3/apache/bin/httpd'
+[Fri Oct 28 17:26:14.265922 2016] [mpm_worker:notice] [pid 8319:tid 47107333631936] AH00298: SIGHUP received.  Attempting to restart
+[Fri Oct 28 17:26:14.342272 2016] [mpm_worker:notice] [pid 8319:tid 47107333631936] AH00292: Apache/2.4.23 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 28 17:26:14.342288 2016] [core:notice] [pid 8319:tid 47107333631936] AH00094: Command line: '/home/cs408_team3/apache/bin/httpd'
+[Fri Oct 28 17:28:44.236918 2016] [mpm_worker:notice] [pid 8319:tid 47107333631936] AH00295: caught SIGTERM, shutting down
+[Fri Oct 28 17:28:52.353484 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00292: Apache/2.4.23 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 28 17:28:52.353559 2016] [core:notice] [pid 10667:tid 47521332281280] AH00094: Command line: '/home/cs408_team3/apache/bin/httpd'
+[Fri Oct 28 17:58:03.329325 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00298: SIGHUP received.  Attempting to restart
+[Fri Oct 28 17:58:03.405985 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00292: Apache/2.4.23 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 28 17:58:03.406003 2016] [core:notice] [pid 10667:tid 47521332281280] AH00094: Command line: '/home/cs408_team3/apache/bin/httpd'
+[Fri Oct 28 18:00:12.955176 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00298: SIGHUP received.  Attempting to restart
+[Fri Oct 28 18:00:13.031744 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00292: Apache/2.4.23 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 28 18:00:13.031764 2016] [core:notice] [pid 10667:tid 47521332281280] AH00094: Command line: '/home/cs408_team3/apache/bin/httpd'
+PHP Warning:  PHP Startup: Unable to load dynamic library '/home/cs408_team3/php7/lib/php/extensions/no-debug-non-zts-20151012/php_mysqli.dll' - /home/cs408_team3/php7/lib/php/extensions/no-debug-non-zts-20151012/php_mysqli.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/home/cs408_team3/php7/lib/php/extensions/no-debug-non-zts-20151012/php_openssl.dll' - /home/cs408_team3/php7/lib/php/extensions/no-debug-non-zts-20151012/php_openssl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Oct 28 18:08:04.892786 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00298: SIGHUP received.  Attempting to restart
+[Fri Oct 28 18:08:04.969762 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00292: Apache/2.4.23 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 28 18:08:04.969785 2016] [core:notice] [pid 10667:tid 47521332281280] AH00094: Command line: '/home/cs408_team3/apache/bin/httpd'
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext/php_mysqli.dll' - ext/php_mysqli.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext/php_openssl.dll' - ext/php_openssl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Oct 28 18:14:51.656479 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00298: SIGHUP received.  Attempting to restart
+[Fri Oct 28 18:14:51.733186 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00292: Apache/2.4.23 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 28 18:14:51.733204 2016] [core:notice] [pid 10667:tid 47521332281280] AH00094: Command line: '/home/cs408_team3/apache/bin/httpd'
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext/mysqli.so' - ext/mysqli.so: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext/php_openssl.dll' - ext/php_openssl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Oct 28 18:22:16.887362 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00298: SIGHUP received.  Attempting to restart
+[Fri Oct 28 18:22:16.963915 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00292: Apache/2.4.23 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 28 18:22:16.963931 2016] [core:notice] [pid 10667:tid 47521332281280] AH00094: Command line: '/home/cs408_team3/apache/bin/httpd'
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext/mysqli.so' - ext/mysqli.so: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext/php_openssl.dll' - ext/php_openssl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Oct 28 18:27:46.632682 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00298: SIGHUP received.  Attempting to restart
+[Fri Oct 28 18:27:46.709162 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00292: Apache/2.4.23 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 28 18:27:46.709178 2016] [core:notice] [pid 10667:tid 47521332281280] AH00094: Command line: '/home/cs408_team3/apache/bin/httpd'
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext/mysqli.so' - ext/mysqli.so: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext/php_openssl.dll' - ext/php_openssl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Oct 28 18:29:53.112679 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00298: SIGHUP received.  Attempting to restart
+[Fri Oct 28 18:29:53.189170 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00292: Apache/2.4.23 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 28 18:29:53.189186 2016] [core:notice] [pid 10667:tid 47521332281280] AH00094: Command line: '/home/cs408_team3/apache/bin/httpd'
+PHP Warning:  PHP Startup: Unable to load dynamic library './ext/mysqli.so' - ./ext/mysqli.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Oct 28 18:33:59.175003 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00298: SIGHUP received.  Attempting to restart
+[Fri Oct 28 18:33:59.251680 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00292: Apache/2.4.23 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 28 18:33:59.251699 2016] [core:notice] [pid 10667:tid 47521332281280] AH00094: Command line: '/home/cs408_team3/apache/bin/httpd'
+[Fri Oct 28 18:35:35.814403 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00298: SIGHUP received.  Attempting to restart
+[Fri Oct 28 18:35:35.890025 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00292: Apache/2.4.23 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 28 18:35:35.890042 2016] [core:notice] [pid 10667:tid 47521332281280] AH00094: Command line: '/home/cs408_team3/apache/bin/httpd'
+[Fri Oct 28 18:37:17.689583 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00298: SIGHUP received.  Attempting to restart
+[Fri Oct 28 18:37:17.766278 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00292: Apache/2.4.23 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 28 18:37:17.766294 2016] [core:notice] [pid 10667:tid 47521332281280] AH00094: Command line: '/home/cs408_team3/apache/bin/httpd'
+[Fri Oct 28 18:38:50.558168 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00298: SIGHUP received.  Attempting to restart
+[Fri Oct 28 18:38:50.634806 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00292: Apache/2.4.23 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 28 18:38:50.634823 2016] [core:notice] [pid 10667:tid 47521332281280] AH00094: Command line: '/home/cs408_team3/apache/bin/httpd'
+[Fri Oct 28 18:47:34.733307 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00298: SIGHUP received.  Attempting to restart
+[Fri Oct 28 18:47:34.809699 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00292: Apache/2.4.23 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 28 18:47:34.809715 2016] [core:notice] [pid 10667:tid 47521332281280] AH00094: Command line: '/home/cs408_team3/apache/bin/httpd'
+[Fri Oct 28 19:04:07.852174 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00298: SIGHUP received.  Attempting to restart
+[Fri Oct 28 19:04:07.928526 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00292: Apache/2.4.23 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 28 19:04:07.928544 2016] [core:notice] [pid 10667:tid 47521332281280] AH00094: Command line: '/home/cs408_team3/apache/bin/httpd'
+[Fri Oct 28 19:36:32.096905 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00298: SIGHUP received.  Attempting to restart
+[Fri Oct 28 19:36:32.173399 2016] [mpm_worker:notice] [pid 10667:tid 47521332281280] AH00292: Apache/2.4.23 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 28 19:36:32.173417 2016] [core:notice] [pid 10667:tid 47521332281280] AH00094: Command line: '/home/cs408_team3/apache/bin/httpd'

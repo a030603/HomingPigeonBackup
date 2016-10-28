@@ -2140,16 +2140,16 @@
 /* #undef MISSING_STRTOK_R_DECL */
 
 /* Whether mysqlnd is enabled */
-/* #undef MYSQLI_USE_MYSQLND */
+#define MYSQLI_USE_MYSQLND 1
 
 /* Enable compressed protocol support */
-/* #undef MYSQLND_COMPRESSION_WANTED */
+#define MYSQLND_COMPRESSION_WANTED 1
 
 /* Enable mysqlnd code that uses OpenSSL directly */
 /* #undef MYSQLND_HAVE_SSL */
 
 /* Enable core mysqlnd SSL code */
-/* #undef MYSQLND_SSL_SUPPORTED */
+#define MYSQLND_SSL_SUPPORTED 1
 
 /* */
 /* #undef NDBM_INCLUDE_FILE */
@@ -2200,7 +2200,7 @@
 #define PHP_BLOWFISH_CRYPT 1
 
 /* PHP build date */
-#define PHP_BUILD_DATE "2016-10-20"
+#define PHP_BUILD_DATE "2016-10-28"
 
 /* Define if your system has fork/vfork/CreateProcess */
 #define PHP_CAN_SUPPORT_PROC_OPEN 1

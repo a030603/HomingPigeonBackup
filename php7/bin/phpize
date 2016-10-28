@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # Variable declaration
-prefix='/home/cs408_team3/php-7.0.12/php7'
-datarootdir='/home/cs408_team3/php-7.0.12/php7/php'
+prefix='/home/cs408_team3/php7'
+datarootdir='/home/cs408_team3/php7/php'
 exec_prefix="`eval echo ${prefix}`"
 phpdir="`eval echo ${exec_prefix}/lib/php`/build"
 includedir="`eval echo ${prefix}/include`/php"
@@ -152,7 +152,7 @@ phpize_copy_files()
 phpize_replace_prefix()
 {
   $SED \
-  -e "s#/home/cs408_team3/php-7.0.12/php7#$prefix#" \
+  -e "s#/home/cs408_team3/php7#$prefix#" \
   < "$phpdir/phpize.m4" > configure.in
 }
 

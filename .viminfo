@@ -8,17 +8,32 @@
 # hlsearch on (H) or off (h):
 ~H
 # Last Search Pattern:
-~MSle0~/install
+~MSle0~/mysqli
 
 # Command Line History (newest to oldest):
 :wq
 :q
 :w
+:q:q
+:q!
+:w!
 :set nu
 :i
 :W
 
 # Search String History (newest to oldest):
+?/mysqli
+?/error.log
+?/ext"
+?/ext
+?/error_log
+?/"ext
+?/extension_dir
+?/mysql
+?/mysqlnd
+?/err
+?//Choose JS file to run
+??php
 ?/install
 ?/fcgi
 ?/HomingPigeon
@@ -40,148 +55,220 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
+"1	LINE	0
+	$pid = exec('PORT=8888 node ' / $file . ' >/dev/null 2>&1 & echo $!');
+"2	LINE	0
+	$pid = exec('PORT=8888 node ' / $file . ' >/dev/null 2>&1 & echo $!');
+"3	LINE	0
+	$pid = exec('PORT=8888 node ' / $file . ' >/dev/null 2>&1 & echo $!');
+"4	LINE	0
+	$pid = exec('PORT=8888 node ' / $file . ' >/dev/null 2>&1 & echo $!');
+"5	LINE	0
+	    url: "https://.2488888/"
+"6	LINE	0
 	    ServerSignature Off
 	    #ServerTokens Prod
-"2	LINE	0
+"7	LINE	0
 	    ServerSignature Off
 	    ServerTokens Prod
-"3	LINE	0
+"8	LINE	0
 	    Order Deny, Allow
-"4	LINE	0
+"9	LINE	0
 	</VirtualHost>
 	
-"5	LINE	0
-	    ErrorLog "logs/dummy-host2.example.com-error_log"
-	    CustomLog "logs/dummy-host2.example.com-access_log" common
-"6	LINE	0
-	    DocumentRoot "/home/cs408_team3/apache/docs/dummy-host2.example.com"
-	    ServerName dummy-host2.example.com
-"7	LINE	0
-	<VirtualHost *:80>
-	    ServerAdmin webmaster@dummy-host2.example.com
+""-	CHAR	0
+	143.248.205.70
 
 # File marks:
-'0  14  7  ~/.gitignore
-'1  1  0  ~/.gitconfig
-'2  4  0  ~/HomingPigeon/.gitignore
-'3  2  52  ~/.bashrc
-'4  1  0  ~/bashrc
-'5  20  0  /etc/yum.conf
-'6  740  23  ~/gmp-4.3.2/Makefile
-'7  52  6  ~/apache/conf/httpd.conf
-'8  1  0  ~/.bascrc
-'9  196  0  ~/apache/conf/httpd.conf
+'0  18  8  ~/.gitignore
+'1  16  6  ~/.gitignore
+'2  17  0  ~/.gitignore
+'3  19  0  ~/.gitignore
+'4  1  0  ~/gitignore
+'5  1667  0  ~/php7/etc/php.ini
+'6  890  17  ~/php7/etc/php.ini
+'7  723  42  ~/php7/etc/php.ini
+'8  892  0  ~/php7/etc/php.ini
+'9  890  15  ~/download/php-7.0.12/php.ini-development
 
 # Jumplist (newest first):
--'  14  7  ~/.gitignore
--'  1  0  ~/.gitignore
--'  1  0  ~/.gitconfig
--'  4  0  ~/HomingPigeon/.gitignore
--'  1  0  ~/HomingPigeon/.gitignore
--'  2  52  ~/.bashrc
--'  1  0  ~/bashrc
--'  20  0  /etc/yum.conf
--'  1  0  /etc/yum.conf
--'  740  23  ~/gmp-4.3.2/Makefile
--'  739  30  ~/gmp-4.3.2/Makefile
--'  735  2  ~/gmp-4.3.2/Makefile
--'  731  23  ~/gmp-4.3.2/Makefile
--'  730  30  ~/gmp-4.3.2/Makefile
--'  724  0  ~/gmp-4.3.2/Makefile
--'  381  0  ~/gmp-4.3.2/Makefile
--'  1  0  ~/gmp-4.3.2/Makefile
--'  52  6  ~/apache/conf/httpd.conf
--'  196  0  ~/apache/conf/httpd.conf
--'  1  0  ~/.bascrc
--'  221  0  ~/apache/conf/httpd.conf
--'  1  0  ~/Tools/TODO_Pierre
--'  1  0  ~/.bashrc
--'  150  0  ~/apache/conf/httpd.conf
--'  26  4  ~/apache/conf/extra/httpd-vhosts.conf
--'  1  0  ~/apache/conf/extra/httpd-vhots.conf
--'  120  18  ~/apache/conf/httpd.conf
--'  151  36  ~/apache/conf/httpd.conf
--'  208  4  ~/apache/conf/httpd.conf
--'  235  4  ~/apache/conf/httpd.conf
--'  164  0  ~/apache/conf/httpd.conf
--'  38  0  ~/Tools/Python-2.7/README
--'  45  0  ~/Tools/Python-2.7/README
--'  1  0  ~/Tools/Python-2.7/README
--'  1  0  ~/hi
--'  44  0  ~/apache/logs/error_log
--'  47  0  ~/apache/logs/error_log
--'  272  0  ~/apache/conf/httpd.conf
--'  21  0  ~/Tools/node-v4.6.1/BUILDING.md
--'  1  0  ~/Tools/node-v4.6.1/BUILDING.md
--'  136  0  ~/Tools/node-v4.6.1/README.md
--'  1  0  ~/Tools/node-v4.6.1/README.md
--'  23  0  ~/apache/conf/extra/httpd-vhosts.conf
--'  25  36  ~/apache/conf/extra/httpd-vhosts.conf
--'  30  34  ~/apache/conf/extra/httpd-vhosts.conf
--'  27  4  ~/apache/conf/extra/httpd-vhosts.conf
--'  222  30  ~/apache/conf/httpd.conf
--'  70  0  ~/apache/conf/httpd.conf
--'  294  6  ~/apache/conf/httpd.conf
--'  36  0  ~/apache/logs/access_log
--'  1  0  ~/apache/logs/access_log
--'  274  40  ~/apache/conf/httpd.conf
--'  273  44  ~/apache/conf/httpd.conf
--'  270  38  ~/apache/conf/httpd.conf
--'  218  71  ~/apache/conf/httpd.conf
--'  242  4  ~/apache/conf/httpd.conf
--'  167  0  ~/apache/conf/httpd.conf
--'  31  19  ~/test/apache/conf/extra/httpd-vhosts.conf
--'  24  0  ~/test/apache/conf/extra/httpd-vhosts.conf
--'  1  0  ~/test/apache/conf/extra/httpd-vhosts.conf
--'  403  0  ~/test/apache/conf/httpd.conf
--'  1  0  ~/test/apache/conf/httpd.conf
--'  1  0  ~/test/apache/httpd.conf
--'  24  4  ~/apache/conf/extra/httpd-vhosts.conf
--'  1  0  ~/apache/conf/httpd-vhosts.conf
--'  148  16  ~/apache/conf/httpd.conf
--'  145  30  ~/apache/conf/httpd.conf
--'  251  0  ~/apache/conf/httpd.conf
--'  450  0  ~/apache/conf/httpd.conf
--'  1  0  ~/apache/conf/extra/httpd-vhosts.conf
--'  60  0  ~/apache/conf/httpd.conf
--'  98  0  ~/apr-util-1.5.4/Makefile
--'  1  0  ~/apr-util-1.5.4/Makefile
--'  234  4  ~/apache/conf/httpd.conf
--'  474  25  ~/apache/conf/httpd.conf
--'  143  42  ~/apache/conf/httpd.conf
--'  142  0  ~/apache/conf/httpd.conf
--'  50  0  ~/apache/conf/httpd.conf
--'  1  0  ~/apache/conf/httpd.conf
--'  2  25  ~/.profile
--'  1  0  ~/.profile
--'  2  25  ~/.profile
--'  1  0  ~/.profile
--'  2  25  ~/.profile
--'  1  0  ~/.profile
--'  2  25  ~/.profile
--'  1  0  ~/.profile
--'  2  25  ~/.profile
--'  1  0  ~/.profile
--'  2  25  ~/.profile
--'  1  0  ~/.profile
--'  2  25  ~/.profile
--'  1  0  ~/.profile
--'  2  25  ~/.profile
--'  1  0  ~/.profile
--'  98  0  ~/apr-util-1.5.4/Makefile
--'  1  0  ~/apr-util-1.5.4/Makefile
--'  2  25  ~/.profile
--'  1  0  ~/.profile
--'  2  25  ~/.profile
+-'  18  8  ~/.gitignore
+-'  16  0  ~/.gitignore
+-'  17  0  ~/.gitignore
+-'  19  0  ~/.gitignore
+-'  14  0  ~/.gitignore
+-'  1  0  ~/gitignore
+-'  1667  0  ~/php7/etc/php.ini
+-'  890  0  ~/php7/etc/php.ini
+-'  566  17  ~/php7/etc/php.ini
+-'  485  39  ~/php7/etc/php.ini
+-'  476  62  ~/php7/etc/php.ini
+-'  1819  9  ~/php7/etc/php.ini
+-'  1818  10  ~/php7/etc/php.ini
+-'  723  17  ~/php7/etc/php.ini
+-'  623  65  ~/php7/etc/php.ini
+-'  572  0  ~/php7/etc/php.ini
+-'  568  1  ~/php7/etc/php.ini
+-'  892  1  ~/php7/etc/php.ini
+-'  972  9  ~/php7/etc/php.ini
+-'  890  15  ~/download/php-7.0.12/php.ini-development
+-'  1  0  ~/download/php-7.0.12/php.ini-development
+-'  890  15  ~/download/php-7.0.12/php.ini-production
+-'  344  0  ~/download/php-7.0.12/php.ini-production
+-'  1  0  ~/download/php-7.0.12/php.ini-production
+-'  1  0  php7/ext/php.ini
+-'  721  2  ~/php7/etc/php.ini
+-'  875  35  ~/php7/etc/php.ini
+-'  38  0  ~/php7/etc/php.ini
+-'  1141  5  ~/php7/etc/php.ini
+-'  998  5  ~/php7/etc/php.ini
+-'  1194  1  ~/php7/etc/php.ini
+-'  1193  17  ~/php7/etc/php.ini
+-'  1189  1  ~/php7/etc/php.ini
+-'  1188  17  ~/php7/etc/php.ini
+-'  1185  0  ~/php7/etc/php.ini
+-'  1184  17  ~/php7/etc/php.ini
+-'  1182  60  ~/php7/etc/php.ini
+-'  1180  0  ~/php7/etc/php.ini
+-'  1179  17  ~/php7/etc/php.ini
+-'  1177  55  ~/php7/etc/php.ini
+-'  1176  1  ~/php7/etc/php.ini
+-'  1126  17  ~/php7/etc/php.ini
+-'  1174  0  ~/php7/etc/php.ini
+-'  1171  0  ~/php7/etc/php.ini
+-'  1170  17  ~/php7/etc/php.ini
+-'  1167  56  ~/php7/etc/php.ini
+-'  1165  23  ~/php7/etc/php.ini
+-'  1163  0  ~/php7/etc/php.ini
+-'  1162  17  ~/php7/etc/php.ini
+-'  1159  0  ~/php7/etc/php.ini
+-'  1158  17  ~/php7/etc/php.ini
+-'  1155  0  ~/php7/etc/php.ini
+-'  1154  17  ~/php7/etc/php.ini
+-'  1150  0  ~/php7/etc/php.ini
+-'  1149  17  ~/php7/etc/php.ini
+-'  1145  55  ~/php7/etc/php.ini
+-'  1143  0  ~/php7/etc/php.ini
+-'  1142  17  ~/php7/etc/php.ini
+-'  1139  0  ~/php7/etc/php.ini
+-'  1138  17  ~/php7/etc/php.ini
+-'  1135  0  ~/php7/etc/php.ini
+-'  1134  17  ~/php7/etc/php.ini
+-'  1131  1  ~/php7/etc/php.ini
+-'  1130  17  ~/php7/etc/php.ini
+-'  1127  0  ~/php7/etc/php.ini
+-'  914  0  ~/php7/etc/php.ini
+-'  427  0  ~/php7/etc/php.ini
+-'  425  42  ~/php7/etc/php.ini
+-'  424  28  ~/php7/etc/php.ini
+-'  415  41  ~/php7/etc/php.ini
+-'  414  51  ~/php7/etc/php.ini
+-'  413  47  ~/php7/etc/php.ini
+-'  412  37  ~/php7/etc/php.ini
+-'  411  26  ~/php7/etc/php.ini
+-'  403  12  ~/php7/etc/php.ini
+-'  400  47  ~/php7/etc/php.ini
+-'  398  17  ~/php7/etc/php.ini
+-'  397  38  ~/php7/etc/php.ini
+-'  395  38  ~/php7/etc/php.ini
+-'  317  11  ~/php7/etc/php.ini
+-'  156  8  ~/php7/etc/php.ini
+-'  116  6  ~/php7/etc/php.ini
+-'  111  7  ~/php7/etc/php.ini
+-'  106  2  ~/php7/etc/php.ini
+-'  102  0  ~/php7/etc/php.ini
+-'  96  10  ~/php7/etc/php.ini
+-'  83  59  ~/php7/etc/php.ini
+-'  82  37  ~/php7/etc/php.ini
+-'  51  0  ~/php7/etc/php.ini
+-'  1  0  ~/php7/etc/php.ini
+-'  890  0  ~/php7/lib/php.ini
+-'  22  0  ~/php7/lib/php.ini
+-'  1  0  ~/php7/lib/php.ini
+-'  1  0  ~/php-7.0.12/php7/lib/php.ini
+-'  1  0  php7/ext/php.ini
+-'  890  15  ~/download/php-7.0.12/php.ini-development
+-'  1  0  ~/download/php-7.0.12/php.ini-development
+-'  890  15  ~/download/php-7.0.12/php.ini-production
+-'  344  0  ~/download/php-7.0.12/php.ini-production
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	"	14	7
-	^	14	8
-	.	15	0
-	+	15	0
+	"	18	8
+	^	18	9
+	.	18	8
+	+	20	0
+	+	19	7
+	+	17	3
+	+	15	7
+	+	16	6
+	+	18	8
+
+> ~/gitignore
+	"	1	0
+	^	1	0
+
+> ~/php7/etc/php.ini
+	"	1667	0
+	^	890	18
+	.	723	17
+	+	890	0
+	+	892	0
+	+	723	0
+	+	890	18
+	+	892	0
+	+	723	18
+	+	570	12
+	+	723	17
+
+> ~/download/php-7.0.12/php.ini-development
+	"	890	15
+
+> ~/download/php-7.0.12/php.ini-production
+	"	890	15
+
+> php7/ext/php.ini
+	"	1	0
+
+> ~/php7/lib/php.ini
+	"	890	0
+	^	890	0
+	.	890	0
+	+	890	0
+	y	22	0
+
+> ~/php-7.0.12/php7/lib/php.ini
+	"	1	0
+
+> ~/php-7.0.12/php7/lib
+	"	1	0
+
+> ~/php7/etc/pear.conf
+	"	1	0
+
+> ~/HomingPigeon/WebRTC/working/page.js
+	"	17	31
+	^	17	34
+	.	17	33
+	+	17	33
+
+> ~/HomingPigeon/WebRTC/test.php
+	"	6	78
+	^	6	79
+	.	6	78
+	+	90	20
+	+	61	0
+	+	32	0
+	+	10	25
+	+	11	0
+	+	10	38
+	+	5	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	7	0
+	+	6	78
 
 > ~/.gitconfig
 	"	1	0
@@ -261,67 +348,3 @@
 
 > ~/.bascrc
 	"	1	0
-
-> ~/Tools/TODO_Pierre
-	"	1	0
-	^	1	18
-	.	1	16
-	+	1	16
-
-> ~/apache/conf/extra/httpd-vhosts.conf
-	"	34	23
-	^	34	24
-	.	34	54
-	+	41	0
-	+	28	4
-	+	29	4
-	+	26	20
-	+	25	47
-	+	26	26
-	+	27	0
-	+	28	0
-	+	27	5
-	+	24	21
-	+	27	4
-	+	38	15
-	+	37	17
-	+	23	16
-	+	26	27
-	+	32	57
-	+	23	18
-	+	26	27
-	+	34	54
-
-> ~/HomingPigeon/test.php
-	"	2	9
-	^	2	10
-	.	2	9
-	+	3	0
-	+	2	9
-
-> ~/HomingPigeon/index.html
-	"	1	0
-
-> ~/apache/conf/extra/httpd-vhots.conf
-	"	1	0
-
-> ~/Tools/Python-2.7/README
-	"	38	0
-
-> ~/hi
-	"	1	0
-	^	1	8
-	.	1	7
-	+	1	7
-
-> ~/apache/logs/error_log
-	"	44	0
-
-> ~/Tools/node-v4.6.1/BUILDING.md
-	"	21	0
-
-> ~/Tools/node-v4.6.1/README.md
-	"	136	0
-
-> ~/apache/logs/access_log
-	"	36	0

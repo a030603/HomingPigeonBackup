@@ -4,10 +4,10 @@
 if test "x$PHP_PEAR_PHP_BIN" != "x"; then
   PHP="$PHP_PEAR_PHP_BIN"
 else
-  if test "/home/cs408_team3/php-7.0.12/php7/bin/php" = '@'php_bin'@'; then
+  if test "/home/cs408_team3/php7/bin/php" = '@'php_bin'@'; then
     PHP=php
   else
-    PHP="/home/cs408_team3/php-7.0.12/php7/bin/php"
+    PHP="/home/cs408_team3/php7/bin/php"
   fi
 fi
 
@@ -16,12 +16,12 @@ if test "x$PHP_PEAR_INSTALL_DIR" != "x"; then
   INCDIR=$PHP_PEAR_INSTALL_DIR
   INCARG="-d include_path=$PHP_PEAR_INSTALL_DIR"
 else
-  if test "/home/cs408_team3/php-7.0.12/php7/lib/php" = '@'php_dir'@'; then
+  if test "/home/cs408_team3/php7/lib/php" = '@'php_dir'@'; then
     INCDIR=`dirname $0`
     INCARG=""
   else
-    INCDIR="/home/cs408_team3/php-7.0.12/php7/lib/php"
-    INCARG="-d include_path=/home/cs408_team3/php-7.0.12/php7/lib/php"
+    INCDIR="/home/cs408_team3/php7/lib/php"
+    INCARG="-d include_path=/home/cs408_team3/php7/lib/php"
   fi
 fi
 

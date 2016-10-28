@@ -12,3 +12,8 @@ pcre*
 .emacs
 .gconfd/
 .mozilla
+.gconf*
+.gnome*
+.npm
+.node-gyp
+download
